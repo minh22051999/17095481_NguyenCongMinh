@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="post">
+        <h1>Travel reservation form</h1>
+        <h2>* denotes mandotory</h2>
+        <b>Full name*:</b><br>
+        <input type="text" name="txtName" id="name" size="20" maxlength="250" value="" placeholder="FirstName LastName"><br>
+        <b>Email address*</b><br>
+        <input type="email" name="email" id="email" size="20" maxlength="250" value="" placeholder="EMAIL_ADDRESS"><br>
+        <b>Select Tour Pack*:</b><br>
+        <input type="text" name="select" value="" size="10" maxlength="100" list="tech">
+        <datalist id="tech">
+            <option value="Goa"></option>
+        </datalist><br>
+        <b>Arrival date*:</b><br>
+        <input type="text" id="date" name="date" value="" size="20" placeholder="m/d/y"><br>
+        <b>Number of persons:*</b><br>
+        <input type="text" id="number" name="txtNumber" value="" size="20" placeholder="UNKNOWN_TYPE"><br>
+        <b>What would you want to avail</b><br>
+        <b>Boarding</b>
+        <input type="checkbox" id="check1" value=""><br>
+        <b>Fooding</b>
+        <input type="checkbox" id="check2" value=""><br>
+        <b>Sight seeing</b>
+        <input type="checkbox" id="check3" value=""><br>
+        <b>Discout Coupon code:</b><br>
+        <input type="text" name="txtCode" id="code" value="" size="20" placeholder="UNKONWN_TYPE"><br>
+        <b>Terms and conditions*</b><br>
+        <input type="radio" id="rds1">I agree
+        <input type="radio" id="rds2">I disagree<br>
+        <button name="btnSend" id="send">Conplete reservation</button>
+    </form>
+</body>
+</html>
